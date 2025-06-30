@@ -67,5 +67,13 @@ public class PatientService {
         return PatientMapper.toDto(updatedPatient);
     }
 
+    public void deletePatient(UUID id){
+    
+        patientRepo.findById(id).orElseThrow(
+            () -> new PatientNotFoundException("Patient not found with this Id: " + id)
+        );
+        
+        patientRepo.deleteById(id);
+    }
 
 }
