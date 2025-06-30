@@ -1,0 +1,91 @@
+# ========================
+# Java / Maven / Gradle
+# ========================
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven Wrapper
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ========================
+# IDEs and Editors
+# ========================
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# ========================
+# Environment and OS Files
+# ========================
+*.log
+*.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# ========================
+# Docker
+# ========================
+docker-compose.override.yml
+docker-compose.local.yml
+Dockerfile.*
+.docker/
+
+# ========================
+# GitHub & CI/CD
+# ========================
+.github/
+
+# ========================
+# Frontend / Node.js (optional)
+# ========================
+node_modules/
+coverage/
+*.lcov
+
+# ========================
+# Test Reports
+# ========================
+/test-output/
+test-results/
+
+# ========================
+# Others (Customize as needed)
+# ========================
+*.swp
+*.tmp
+*.bak
+*.backup
+*.~*
